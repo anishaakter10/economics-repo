@@ -1,6 +1,45 @@
+body{
+    margin: 5px;
+}
 h1{
     color: navy;
 }
-p{
-    colour: blue;
+.aqua-color{
+    color:rgba(0, 157, 255, 0.829);
+}
+
+.color-style{
+    color:rgba(208, 0, 255, 0.403);
+}
+
+#font{
+    font-size: 20px;
+}
+b{
+    color:rgba(0, 0, 128, 0.864);
+}
+section{
+    display:flex;
+}
+.half-width{
+    width:50%;
+    
+}
+
+.half-width img{
+        width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgba(255, 21, 0, 0.655), rgb(255, 86, 71));
+    font-weight: 700%;
+    color:aliceblue;
+    border-radius: 5px;
+    padding: 10px 15px;
+
+}
+.top-banner{
+    background-image: url(images/Backgro1.jpg);
+    background-repeat: no-repeat;
+    background-size: 230%;
 }
